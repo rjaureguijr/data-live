@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.hi-section {
+  background: #282c34;
+  color: #61dafb;
+  display: flex;
+  flex-direction: column;
+
+}
+
+html,
+body,
+#root,
+.room {
+  height: 100%;
+  margin: 0;
+}
+
+.lit {
+  background-color: lightgray;
+  color: black;
+}
+.dark {
+  background-color: black;
+  color: lightgray;
+}
